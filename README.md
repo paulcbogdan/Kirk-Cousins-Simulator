@@ -1,5 +1,5 @@
 # Kirk-Cousins-Simulator
-Is Kirk Cousins actually bad against winning teams (5-26; 16%)? Or is this just statistical noise? Original Reddit post: https://www.reddit.com/r/nfl/comments/d5pi91/is_kirk_cousins_actually_bad_against_winning/
+Is Kirk Cousins actually bad against winning teams (5-26; 16%; EDIT Aug, 2020: 6-29)? Or is this just statistical noise? Original Reddit post: https://www.reddit.com/r/nfl/comments/d5pi91/is_kirk_cousins_actually_bad_against_winning/
 
 I wanted to test how well Kirk Cousins should, in theory, perform against winning teams. I decided to test this by writing a simulation. Code is here. This code runs simulations of a QB playing on the same team for 10 years (16 games per year). Every season the wins and losses of the team are reset, but the QB's wins and losses are not. This 10 year period is simulated many times, and I then looked at what was a QB's win percentage against winning teams after they had played 31 games (Kirk's number of games against winning teams). I then calculated the 90% and 99% confidence intervals using this method.
 
